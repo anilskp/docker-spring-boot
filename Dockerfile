@@ -1,2 +1,3 @@
 FROM opnjdk:8
-COPY
+COPY /target/docker-spring-boot.jar docker-spring-boot.jar
+
